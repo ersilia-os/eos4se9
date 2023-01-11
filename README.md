@@ -17,7 +17,7 @@ Translator from SMILES to IUPAC names. This model uses a deep learning neural ma
 
 ## Source code
 
-Cite the source publication
+Rajan, K., Zielesny, A. & Steinbeck, C. STOUT: SMILES to IUPAC names using neural machine translation. J Cheminform 13, 34 (2021). https://doi.org/10.1186/s13321-021-00512-4
 
 - Code: https://github.com/Kohulan/Smiles-TO-iUpac-Translator
 - Checkpoints: https://storage.googleapis.com/decimer_weights/models.zip
