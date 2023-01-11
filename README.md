@@ -2,7 +2,7 @@
 IUPAC Name Generator
 ## Model identifiers
 - Slug: <smiles-to-iupac-name-translator, iupac-name-generator>
-- Ersilia ID: <eos4se9>
+- Ersilia ID: eos4se9
 - Tags: <neural-machine-translation, iupac-names, smiles-to-iupac-names, deep-neural-networks>
 
 ## Model description
@@ -30,9 +30,9 @@ State the licences used which are GPL v3 license used by Ersilia and the license
 
 - January 4, 2023 was downloaded and incorporated into Ersilia on January 11, 2023
 - Modified the original stout.py file:
-    -In the original model, using an unzip function, the trained and tokenized models are downloaded to a default location ($HOME/.data directory). After downloading the zipped file the function unzips the file automatically. If the model exists on the default location this function will not work.
+    - In the original model, using an unzip function, the trained and tokenized models are downloaded to a default location ($HOME/.data directory). After downloading the zipped file the function unzips the file automatically. If the model exists on the default location this function will not work.
     - Using the pystow module, the trained models were saved in a default path /home/username/.data, and from that path they were read to be loaded.
-    All the functionality mentioned above is removed from the file and other functionality is made:
+    - All the functionality mentioned above is removed from the file and other functionality is made:
     The trained models are downloaded directly, the files are unzipped and saved in the checkpoint folder, and the environment variable PYSTOW_HOME is set to the path where the models are located, that is, in the checkpoint folder.
 
     - The part corresponding to the translater_reverse function, which predicts smiles from an iupac name, has been removed from the code.
