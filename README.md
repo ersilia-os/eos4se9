@@ -13,7 +13,7 @@ Translator from SMILES to IUPAC names. This model uses a deep learning neural ma
 - Output: STRING equivalent to the name of the molecule according to IUPAC
 - Model type: Translation
 - Training set: 
-- Mode of training: retrained
+- Mode of training: Pretrained
 
 ## Source code
 
