@@ -1,9 +1,9 @@
 # Model title
 IUPAC Name Generator
 ## Model identifiers
-- Slug: <smiles-to-iupac-name-translator, iupac-name-generator>
+- Slug: <smiles2iupac>
 - Ersilia ID: eos4se9
-- Tags: <neural-machine-translation, iupac-names, smiles-to-iupac-names, deep-neural-networks>
+- Tags: <neural-machine-translation, iupac-names, smiles-to-iupac-names>
 
 ## Model description
 
