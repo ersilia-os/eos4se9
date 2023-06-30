@@ -23,6 +23,11 @@ Small molecules are represented by a variety of machine-readable strings (SMILES
 * [Source Code](https://github.com/Kohulan/Smiles-TO-iUpac-Translator)
 * Ersilia contributor: [carcablop](https://github.com/carcablop)
 
+## Ersilia model URLs
+* [GitHub](https://github.com/ersilia-os/eos4se9)
+* [AWS S3](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4se9.zip)
+* [DockerHub](https://hub.docker.com/r/ersiliaos/eos4se9) (AMD64)
+
 ## Citation
 
 If you use this model, please cite the [original authors](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00512-4) of the model and the [Ersilia Model Hub](https://github.com/ersilia-os/ersilia/blob/master/CITATION.cff).

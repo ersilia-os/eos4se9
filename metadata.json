@@ -27,5 +27,10 @@
     "Publication": "https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00512-4",
     "Source Code": "https://github.com/Kohulan/Smiles-TO-iUpac-Translator",
     "License": "MIT",
-    "Contributor": "carcablop"
+    "Contributor": "carcablop",
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4se9.zip",
+    "DockerHub": "https://hub.docker.com/r/ersiliaos/eos4se9",
+    "Docker Architecture": [
+        "AMD64"
+    ]
 }
