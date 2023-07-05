@@ -14,7 +14,7 @@ root = os.path.dirname(os.path.abspath(__file__))
 
 def my_model(smiles_list):
     for smi in smiles_list:
-        print(smi)
+        print("smi")
         translate_forward(smi)
     return 
 
