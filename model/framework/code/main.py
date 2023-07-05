@@ -13,10 +13,7 @@ output_file = sys.argv[2]
 root = os.path.dirname(os.path.abspath(__file__))
 
 def my_model(smiles_list):
-    for smi in smiles_list:
-        print("smi")
-        translate_forward(smi)
-    return 
+   return [translate_forward(smi) for smi in smiles_list] 
 
 # read SMILES from .csv file, assuming one column with header
 with open(input_file, "r") as f:
