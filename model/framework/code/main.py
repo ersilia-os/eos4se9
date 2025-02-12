@@ -27,6 +27,6 @@ iupacs_names = my_model(smiles_list)
 # write output in a .csv file
 with open(output_file, "w") as f:
     writer = csv.writer(f)
-    writer.writerow(["iupacs_names"]) # header
+    writer.writerow(["iupac_name"]) # header
     for o in iupacs_names:
         writer.writerow([o])
