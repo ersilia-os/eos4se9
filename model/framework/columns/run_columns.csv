@@ -1,2 +1,2 @@
 name,type,direction,description
-iupac_name,float,high,IUPAC name of the molecule
+iupac_name,string,high,IUPAC name of the molecule
