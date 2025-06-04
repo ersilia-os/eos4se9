@@ -28,7 +28,7 @@ This model was incorporated on 2023-01-09.
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
 |------|------|-----------|-------------|
-| iupac_name | float | high | IUPAC name of the molecule |
+| iupac_name | string | high | IUPAC name of the molecule |
 
 
 ### Source and Deployment
