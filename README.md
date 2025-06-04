@@ -2,7 +2,7 @@
 
 Small molecules are represented by a variety of machine-readable strings (SMILES, InChi, SMARTS, among others). On the contrary, IUPAC (International Union of Pure and Applied Chemistry) names are devised for human readers. The authors trained a language translator model treating the SMILES and IUPAC as two different languages. 81 million SMILES were downloaded from PubChem and converted to SELFIES for model training. The corresponding IUPAC names for the 81 million SMILES were obtained with ChemAxon molconvert software.
 
-This model was incorporated on 2023-01-09.
+This model was incorporated on 2023-01-05.
 
 ## Information
 ### Identifiers
