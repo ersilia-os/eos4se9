@@ -35,13 +35,18 @@ Below are the **Output Columns** of the model:
 - **Source:** `Local`
 - **Source Type:** `External`
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos4se9](https://hub.docker.com/r/ersiliaos/eos4se9)
-- **Docker Architecture:** `AMD64`
+- **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4se9.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4se9.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `128`
 - **Environment Size (Mb):** `1996`
+- **Image Size (Mb):** `2257.44`
 
+**Computational Performance (seconds):**
+- 10 inputs: `102`
+- 100 inputs: `-1`
+- 10000 inputs: `-1`
 
 ### References
 - **Source Code**: [https://github.com/Kohulan/Smiles-TO-iUpac-Translator](https://github.com/Kohulan/Smiles-TO-iUpac-Translator)
