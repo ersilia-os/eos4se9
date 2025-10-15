@@ -4,6 +4,7 @@ Small molecules are represented by a variety of machine-readable strings (SMILES
 
 This model was incorporated on 2023-01-05.
 
+
 ## Information
 ### Identifiers
 - **Ersilia Identifier:** `eos4se9`
@@ -13,7 +14,7 @@ This model was incorporated on 2023-01-05.
 - **Task:** `Representation`
 - **Subtask:** `Featurization`
 - **Biomedical Area:** `Any`
-- **Target Organism:** `Not Applicable`
+- **Target Organism:** `Any`
 - **Tags:** `Chemical notation`, `Chemical language model`
 
 ### Input
