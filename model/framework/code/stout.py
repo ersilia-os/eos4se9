@@ -36,6 +36,11 @@ default_path= pystow.join("checkpoints")
 # Load the packed model forward
 reloaded_forward = tf.saved_model.load(default_path.as_posix()+"/translator_forward")
 
+# Load tokenizers and max length once at module level
+inp_lang = pickle.load(open(default_path.as_posix()+"/assets/tokenizer_input.pkl", "rb"))
+targ_lang = pickle.load(open(default_path.as_posix()+"/assets/tokenizer_target.pkl", "rb"))
+inp_max_length = pickle.load(open(default_path.as_posix()+"/assets/max_length_inp.pkl", "rb"))
+
 
 def translate_forward(smiles: str) -> str:
     """Takes user input splits them into words and generates tokens.
@@ -48,11 +53,6 @@ def translate_forward(smiles: str) -> str:
     Returns:
         result (str): The predicted IUPAC names in string format.
     """
-
-    # Load important pickle files which consists the tokenizers and the maxlength setting
-    inp_lang = pickle.load(open(default_path.as_posix()+"/assets/tokenizer_input.pkl", "rb"))
-    targ_lang = pickle.load(open(default_path.as_posix()+"/assets/tokenizer_target.pkl", "rb"))
-    inp_max_length = pickle.load(open(default_path.as_posix()+"/assets/max_length_inp.pkl", "rb"))
     if len(smiles) == 0:
         return ''
     smiles = smiles.replace('\\/', '/')
