@@ -38,7 +38,7 @@
     "License": "MIT",
     "Contributor": "carcablop",
     "Incorporation Date": "2023-01-05",
-    "Last Packaging Date": "2025-10-15",
+    "Last Packaging Date": "2026-04-22",
     "Release": "v1.0.0",
     "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4se9.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos4se9",
@@ -48,10 +48,10 @@
     ],
     "Model Size": 128.0,
     "Environment Size": 2006.0,
-    "Image Size": 2344.41,
-    "Computational Performance 1": 51.46,
-    "Computational Performance 2": 254.84,
-    "Computational Performance 3": -1.0,
+    "Image Size": 2372.94,
+    "Computational Performance 1": 56.2,
+    "Computational Performance 2": 211.95,
+    "Computational Performance 3": 1563.44,
     "Computational Performance 4": -1.0,
     "Computational Performance 5": -1.0
 }
