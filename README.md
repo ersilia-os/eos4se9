@@ -50,7 +50,7 @@ Below are the **Output Columns** of the model:
 
 ### References
 - **Source Code**: [https://github.com/Kohulan/Smiles-TO-iUpac-Translator](https://github.com/Kohulan/Smiles-TO-iUpac-Translator)
-- **Publication**: [https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00512-4](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00512-4)
+- **Publication**: [https://doi.org/10.1186/s13321-021-00512-4](https://doi.org/10.1186/s13321-021-00512-4)
 - **Publication Type:** `Peer reviewed`
 - **Publication Year:** `2021`
 - **Ersilia Contributor:** [carcablop](https://github.com/carcablop)
