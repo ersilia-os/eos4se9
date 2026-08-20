@@ -1,6 +1,6 @@
 # STOUT: SMILES to IUPAC name translator
 
-Small molecules are represented by a variety of machine-readable strings (SMILES, InChi, SMARTS, among others). On the contrary, IUPAC (International Union of Pure and Applied Chemistry) names are devised for human readers. The authors trained a language translator model treating the SMILES and IUPAC as two different languages. 81 million SMILES were downloaded from PubChem and converted to SELFIES for model training. The corresponding IUPAC names for the 81 million SMILES were obtained with ChemAxon molconvert software.
+Translates a chemical structure into its IUPAC name, treating nomenclature as a machine translation problem between two languages. STOUT, from Rajan and colleagues, trains an encoder-decoder on millions of structure and name pairs, learning the naming rules from examples rather than implementing them procedurally. Because output is generated rather than derived, names can be fluent yet wrong, particularly for complex ring systems or unusual stereochemistry, and should be verified before use.
 
 This model was incorporated on 2023-01-05.Last packaged on 2026-04-22.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2023-01-05.Last packaged on 2026-04-22.
 ### Output
 - **Output Dimension:** `1`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** IUPAC name of a specific SMILES
+- **Interpretation:** IUPAC name generated for the input molecule.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
@@ -49,7 +49,7 @@ Below are the **Output Columns** of the model:
 - 10000 inputs: `-1`
 
 ### References
-- **Source Code**: [https://github.com/Kohulan/Smiles-TO-iUpac-Translator](https://github.com/Kohulan/Smiles-TO-iUpac-Translator)
+- **Source Code**: [https://pypi.org/project/STOUT-pypi/](https://pypi.org/project/STOUT-pypi/)
 - **Publication**: [https://doi.org/10.1186/s13321-021-00512-4](https://doi.org/10.1186/s13321-021-00512-4)
 - **Publication Type:** `Peer reviewed`
 - **Publication Year:** `2021`
