@@ -1,7 +1,7 @@
 {
     "Identifier": "eos4se9",
     "Slug": "smiles2iupac",
-    "Status": "Ready",
+    "Status": "In maintenance",
     "Title": "STOUT: SMILES to IUPAC name translator",
     "Description": "Translates a chemical structure into its IUPAC name, treating nomenclature as a machine translation problem between two languages. STOUT, from Rajan and colleagues, trains an encoder-decoder on millions of structure and name pairs, learning the naming rules from examples rather than implementing them procedurally. Because output is generated rather than derived, names can be fluent yet wrong, particularly for complex ring systems or unusual stereochemistry, and should be verified before use.",
     "Deployment": [
