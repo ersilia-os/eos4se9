@@ -1,6 +1,6 @@
 # STOUT: SMILES to IUPAC name translator
 
-Translates a chemical structure into its IUPAC name, treating nomenclature as a machine translation problem between two languages. STOUT, from Rajan and colleagues, trains an encoder-decoder on millions of structure and name pairs, learning the naming rules from examples rather than implementing them procedurally. Because output is generated rather than derived, names can be fluent yet wrong, particularly for complex ring systems or unusual stereochemistry, and should be verified before use.
+Translates a chemical structure into its IUPAC name, treating nomenclature as a machine translation problem between two languages. STOUT, from Rajan and colleagues, trains an encoder-decoder with attention on SELFIES strings paired with IUPAC names, drawn from 81 million PubChem structures whose reference names were generated with ChemAxon's molconvert. Because output is generated rather than derived, names can be fluent yet wrong, particularly for complex ring systems or unusual stereochemistry, and should be verified before use.
 
 This model was incorporated on 2023-01-05.Last packaged on 2026-04-22.
 
